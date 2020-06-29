@@ -44,7 +44,7 @@ def matrix_lookup(matrix, row, column)
   print matrix
   puts row
   puts column
-  matrix[row][column] 
+  matrix.sort![row][column] 
 end
 
 def matrix_update(matrix, row, column, new_value)
